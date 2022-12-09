@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'conversation.apps.ConversationConfig',
+    'lead_manager.apps.LeadManagerConfig',
 ]
 
 MIDDLEWARE = [
